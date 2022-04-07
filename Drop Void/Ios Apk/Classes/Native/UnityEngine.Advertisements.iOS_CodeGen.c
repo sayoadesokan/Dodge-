@@ -1,0 +1,280 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+extern const RuntimeMethod* PurchasingPlatform_UnityAdsDidInitiatePurchasingCommand_mA910F3DE727D91ADBEB097FAB3B268EF78E963B6_RuntimeMethod_var;
+extern const RuntimeMethod* PurchasingPlatform_UnityAdsPurchasingGetProductCatalog_m43893984B031353D806A8391B018A96EC3C6707D_RuntimeMethod_var;
+extern const RuntimeMethod* PurchasingPlatform_UnityAdsPurchasingGetPurchasingVersion_m9BF736A175ED3CD1E0615B4E6B3CFD425F45DB1E_RuntimeMethod_var;
+extern const RuntimeMethod* PurchasingPlatform_UnityAdsPurchasingInitialize_m38A4FD6CB888A8699B9F1E09EEF7FE0CBE72CF62_RuntimeMethod_var;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// 0x00000001 UnityEngine.Advertisements.BannerOptions_BannerCallback UnityEngine.Advertisements.BannerOptions::get_clickCallback()
+extern void BannerOptions_get_clickCallback_mD1828DFAF3F84CA39B77945ABE1FA9BEBEFF7E7E (void);
+// 0x00000002 System.Void UnityEngine.Advertisements.BannerOptions_BannerCallback::.ctor(System.Object,System.IntPtr)
+extern void BannerCallback__ctor_mFE0AADACDEB3B70F4089AB9C6166E7EC8C8E6DA0 (void);
+// 0x00000003 System.Void UnityEngine.Advertisements.BannerOptions_BannerCallback::Invoke()
+extern void BannerCallback_Invoke_mA9EBB907DC13A22AE5369023B61800CCCDBC2EEC (void);
+// 0x00000004 System.IAsyncResult UnityEngine.Advertisements.BannerOptions_BannerCallback::BeginInvoke(System.AsyncCallback,System.Object)
+extern void BannerCallback_BeginInvoke_mF7CCBDB6881B0808302DC2CEAF1D0F36E20D37A5 (void);
+// 0x00000005 System.Void UnityEngine.Advertisements.BannerOptions_BannerCallback::EndInvoke(System.IAsyncResult)
+extern void BannerCallback_EndInvoke_m854BCF7E45908B620CB6DA373C9690AA2412122A (void);
+// 0x00000006 System.Void UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder::.ctor()
+extern void BannerPlaceholder__ctor_m98BD04E49E5A1DF0C3A2BADA8C807F5E9323160F (void);
+// 0x00000007 System.Void UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder::Awake()
+extern void BannerPlaceholder_Awake_m7DB57FBE8B77777677F6352C7BDBB5EFF9BC0544 (void);
+// 0x00000008 System.Void UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder::OnGUI()
+extern void BannerPlaceholder_OnGUI_mBDC7318B3A541A4CE918765BEE8B441416DE93F5 (void);
+// 0x00000009 System.Void UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder::ShowBanner(UnityEngine.Advertisements.BannerPosition,UnityEngine.Advertisements.BannerOptions)
+extern void BannerPlaceholder_ShowBanner_m881CDA2C98B36B83F95527649373BE6F5847A9E5 (void);
+// 0x0000000A System.Void UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder::HideBanner()
+extern void BannerPlaceholder_HideBanner_m867B1DC07DA4B37516A64596AF076390C4A7237B (void);
+// 0x0000000B UnityEngine.Texture2D UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder::BackgroundTexture(System.Int32,System.Int32,UnityEngine.Color)
+extern void BannerPlaceholder_BackgroundTexture_m0B9AC8DC73940BCFB6EF64C545EB996183398BA2 (void);
+// 0x0000000C UnityEngine.Rect UnityEngine.Advertisements.Platform.Editor.BannerPlaceholder::GetBannerRect(UnityEngine.Advertisements.BannerPosition)
+extern void BannerPlaceholder_GetBannerRect_m67443DF1F88BAAAA9E13A51A9044070A2F26C7E2 (void);
+// 0x0000000D System.Boolean UnityEngine.Advertisements.Purchasing.Purchasing::Initialize(UnityEngine.Advertisements.Purchasing.IPurchasingEventSender)
+extern void Purchasing_Initialize_m7287D5747E5444DEEE00BAD89044FAF3B1830368 (void);
+// 0x0000000E System.Boolean UnityEngine.Advertisements.Purchasing.Purchasing::InitiatePurchasingCommand(System.String)
+extern void Purchasing_InitiatePurchasingCommand_mE2BD140F9B0999F82323B72C26E03863A7E90C0C (void);
+// 0x0000000F System.String UnityEngine.Advertisements.Purchasing.Purchasing::GetPurchasingCatalog()
+extern void Purchasing_GetPurchasingCatalog_m6F958CF001C4513AF22B86B1DEEE198BF55AD89C (void);
+// 0x00000010 System.String UnityEngine.Advertisements.Purchasing.Purchasing::GetPromoVersion()
+extern void Purchasing_GetPromoVersion_mEFECB081EBAF2E4C6946C8E1BBF96F24177E0CB2 (void);
+// 0x00000011 System.Void UnityEngine.Advertisements.Purchasing.Purchasing::.cctor()
+extern void Purchasing__cctor_m4D96404668FF4A1B91514C71C2972694023C0649 (void);
+// 0x00000012 System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform::.ctor()
+extern void PurchasingPlatform__ctor_m246019D33132E210E081FC0878B7E2BA0545434C (void);
+// 0x00000013 UnityEngine.Advertisements.Purchasing.PurchasingPlatform UnityEngine.Advertisements.Purchasing.PurchasingPlatform::get_Instance()
+extern void PurchasingPlatform_get_Instance_mA2099BC01A58C7F1AEEBD66DEF1F45A84D39712F (void);
+// 0x00000014 System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform::set_Instance(UnityEngine.Advertisements.Purchasing.PurchasingPlatform)
+extern void PurchasingPlatform_set_Instance_m01DAC211CD3292C029C1E7CDC3750CC7356590F3 (void);
+// 0x00000015 System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform::UnityAdsPurchasingDispatchReturnEvent(System.Int64,System.String)
+extern void PurchasingPlatform_UnityAdsPurchasingDispatchReturnEvent_mB8531C9CA7C2F5569E203AFEDF07F33BEB814F5C (void);
+// 0x00000016 System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform::UnityAdsSetDidInitiatePurchasingCommandCallback(UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingDidInitiatePurchasingCommand)
+extern void PurchasingPlatform_UnityAdsSetDidInitiatePurchasingCommandCallback_mC47E7E05A255D3ACCDCA1400A954E3A3FA02A817 (void);
+// 0x00000017 System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform::UnityAdsSetGetProductCatalogCallback(UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingGetProductCatalog)
+extern void PurchasingPlatform_UnityAdsSetGetProductCatalogCallback_m3B01B53A52EC1CE26578EC061AA90C632F7626CF (void);
+// 0x00000018 System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform::UnityAdsSetGetVersionCallback(UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingGetPurchasingVersion)
+extern void PurchasingPlatform_UnityAdsSetGetVersionCallback_m1E0F625490460A10C73F48C32CFFDC491CC5A8DF (void);
+// 0x00000019 System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform::UnityAdsSetInitializePurchasingCallback(UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingInitialize)
+extern void PurchasingPlatform_UnityAdsSetInitializePurchasingCallback_mD043FDF5C3D1095A75DB365E077E30075AD2CB77 (void);
+// 0x0000001A System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform::UnityAdsDidInitiatePurchasingCommand(System.String)
+extern void PurchasingPlatform_UnityAdsDidInitiatePurchasingCommand_mA910F3DE727D91ADBEB097FAB3B268EF78E963B6 (void);
+// 0x0000001B System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform::UnityAdsPurchasingGetProductCatalog()
+extern void PurchasingPlatform_UnityAdsPurchasingGetProductCatalog_m43893984B031353D806A8391B018A96EC3C6707D (void);
+// 0x0000001C System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform::UnityAdsPurchasingGetPurchasingVersion()
+extern void PurchasingPlatform_UnityAdsPurchasingGetPurchasingVersion_m9BF736A175ED3CD1E0615B4E6B3CFD425F45DB1E (void);
+// 0x0000001D System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform::UnityAdsPurchasingInitialize()
+extern void PurchasingPlatform_UnityAdsPurchasingInitialize_m38A4FD6CB888A8699B9F1E09EEF7FE0CBE72CF62 (void);
+// 0x0000001E System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform::Initialize()
+extern void PurchasingPlatform_Initialize_m261DEB27B76AE7F6CA2C71EDE7666E1368CD1951 (void);
+// 0x0000001F System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingDidInitiatePurchasingCommand::.ctor(System.Object,System.IntPtr)
+extern void unityAdsPurchasingDidInitiatePurchasingCommand__ctor_m590CF45B5BE07EE23665FBB7E1B8C2C74D13A3E2 (void);
+// 0x00000020 System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingDidInitiatePurchasingCommand::Invoke(System.String)
+extern void unityAdsPurchasingDidInitiatePurchasingCommand_Invoke_m8179A1B95A43E59F75F19F134B7B00E067E634CF (void);
+// 0x00000021 System.IAsyncResult UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingDidInitiatePurchasingCommand::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+extern void unityAdsPurchasingDidInitiatePurchasingCommand_BeginInvoke_mD635CCA1DA5CD6EF0BE7858C7C40585A00EAE0E2 (void);
+// 0x00000022 System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingDidInitiatePurchasingCommand::EndInvoke(System.IAsyncResult)
+extern void unityAdsPurchasingDidInitiatePurchasingCommand_EndInvoke_mBF4B5A63A3858DCC86D2A5C4163AEBF289C6EC11 (void);
+// 0x00000023 System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingGetProductCatalog::.ctor(System.Object,System.IntPtr)
+extern void unityAdsPurchasingGetProductCatalog__ctor_m7DD17B5A548D57D975DA13EFF3370F219BCFCD4F (void);
+// 0x00000024 System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingGetProductCatalog::Invoke()
+extern void unityAdsPurchasingGetProductCatalog_Invoke_m5B0DF2F58EBA98B06DC997C4731D9F166D36675E (void);
+// 0x00000025 System.IAsyncResult UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingGetProductCatalog::BeginInvoke(System.AsyncCallback,System.Object)
+extern void unityAdsPurchasingGetProductCatalog_BeginInvoke_mA11FA3016DF5524A17CF7B1A7BF53E172CC397EE (void);
+// 0x00000026 System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingGetProductCatalog::EndInvoke(System.IAsyncResult)
+extern void unityAdsPurchasingGetProductCatalog_EndInvoke_m3E8C990CEEF3AEFB00C5DD9D5999B3AD92BB7048 (void);
+// 0x00000027 System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingGetPurchasingVersion::.ctor(System.Object,System.IntPtr)
+extern void unityAdsPurchasingGetPurchasingVersion__ctor_m7FD3636336B0081D066D1326FCBA083EDE46D59D (void);
+// 0x00000028 System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingGetPurchasingVersion::Invoke()
+extern void unityAdsPurchasingGetPurchasingVersion_Invoke_mACB792C34954817D9979AEA8B88069D78BB1C410 (void);
+// 0x00000029 System.IAsyncResult UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingGetPurchasingVersion::BeginInvoke(System.AsyncCallback,System.Object)
+extern void unityAdsPurchasingGetPurchasingVersion_BeginInvoke_m4E96E1278CE599A130250F97298B124572AA5354 (void);
+// 0x0000002A System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingGetPurchasingVersion::EndInvoke(System.IAsyncResult)
+extern void unityAdsPurchasingGetPurchasingVersion_EndInvoke_mF44F708DB6334FB311740E358F230008898DC440 (void);
+// 0x0000002B System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingInitialize::.ctor(System.Object,System.IntPtr)
+extern void unityAdsPurchasingInitialize__ctor_m464BF627B04D98F5FEA743E8C13F2159FBABD427 (void);
+// 0x0000002C System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingInitialize::Invoke()
+extern void unityAdsPurchasingInitialize_Invoke_m4689AD3EFB2140A44E2B47CB359AD6AB9B16C87D (void);
+// 0x0000002D System.IAsyncResult UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingInitialize::BeginInvoke(System.AsyncCallback,System.Object)
+extern void unityAdsPurchasingInitialize_BeginInvoke_m2F511701FE0C01816052D3A8026BF38A65DE6AA1 (void);
+// 0x0000002E System.Void UnityEngine.Advertisements.Purchasing.PurchasingPlatform_unityAdsPurchasingInitialize::EndInvoke(System.IAsyncResult)
+extern void unityAdsPurchasingInitialize_EndInvoke_mC34DD292E548943AA5FA0027EE2E9B9353AC151F (void);
+// 0x0000002F System.Void UnityEngine.Advertisements.Utilities.ApplicationQuit::.ctor()
+extern void ApplicationQuit__ctor_m5B1A28454D92AB71F2D8AA3F2FEECA755ECC3ED3 (void);
+// 0x00000030 System.Void UnityEngine.Advertisements.Utilities.ApplicationQuit::add_OnApplicationQuitEventHandler(UnityEngine.Events.UnityAction)
+extern void ApplicationQuit_add_OnApplicationQuitEventHandler_m6B717384EA8AFF41DBA121B62B7A4443BFFAB49A (void);
+// 0x00000031 System.Void UnityEngine.Advertisements.Utilities.ApplicationQuit::remove_OnApplicationQuitEventHandler(UnityEngine.Events.UnityAction)
+extern void ApplicationQuit_remove_OnApplicationQuitEventHandler_m187AD324A096F38CF3DD37C5D97B16BB41BC833D (void);
+// 0x00000032 System.Void UnityEngine.Advertisements.Utilities.ApplicationQuit::OnApplicationQuit()
+extern void ApplicationQuit_OnApplicationQuit_m003906A17266C49FA87D63EA42BA02F60EE6C568 (void);
+// 0x00000033 System.Void UnityEngine.Advertisements.Utilities.CoroutineExecutor::.ctor()
+extern void CoroutineExecutor__ctor_mF17DB14C13A9AADE22358EF1AA59A86B33AE609A (void);
+// 0x00000034 System.Void UnityEngine.Advertisements.Utilities.CoroutineExecutor::Update()
+extern void CoroutineExecutor_Update_mD4F70B307D00AEDC2ED1E76A906A30EA37907C41 (void);
+// 0x00000035 System.Void UnityEngine.Advertisements.Utilities.IUnityLifecycleManager::Post(System.Action)
+// 0x00000036 System.Void UnityEngine.Advertisements.Utilities.UnityLifecycleManager::.ctor()
+extern void UnityLifecycleManager__ctor_mA859476434221EEA92E637746E84D3FED8474913 (void);
+// 0x00000037 System.Void UnityEngine.Advertisements.Utilities.UnityLifecycleManager::Initialize()
+extern void UnityLifecycleManager_Initialize_mCCCCF32D191A3FB5F45C0E502306C369760027AB (void);
+// 0x00000038 System.Void UnityEngine.Advertisements.Utilities.UnityLifecycleManager::Post(System.Action)
+extern void UnityLifecycleManager_Post_m6FC3349F84F3854BBF3B4ADCB39C66EB16F4B837 (void);
+// 0x00000039 System.Void UnityEngine.Advertisements.Utilities.UnityLifecycleManager::Dispose()
+extern void UnityLifecycleManager_Dispose_m396389E710831AE9EDF3E1720C3412F4F9F8391A (void);
+static Il2CppMethodPointer s_methodPointers[57] = 
+{
+	BannerOptions_get_clickCallback_mD1828DFAF3F84CA39B77945ABE1FA9BEBEFF7E7E,
+	BannerCallback__ctor_mFE0AADACDEB3B70F4089AB9C6166E7EC8C8E6DA0,
+	BannerCallback_Invoke_mA9EBB907DC13A22AE5369023B61800CCCDBC2EEC,
+	BannerCallback_BeginInvoke_mF7CCBDB6881B0808302DC2CEAF1D0F36E20D37A5,
+	BannerCallback_EndInvoke_m854BCF7E45908B620CB6DA373C9690AA2412122A,
+	BannerPlaceholder__ctor_m98BD04E49E5A1DF0C3A2BADA8C807F5E9323160F,
+	BannerPlaceholder_Awake_m7DB57FBE8B77777677F6352C7BDBB5EFF9BC0544,
+	BannerPlaceholder_OnGUI_mBDC7318B3A541A4CE918765BEE8B441416DE93F5,
+	BannerPlaceholder_ShowBanner_m881CDA2C98B36B83F95527649373BE6F5847A9E5,
+	BannerPlaceholder_HideBanner_m867B1DC07DA4B37516A64596AF076390C4A7237B,
+	BannerPlaceholder_BackgroundTexture_m0B9AC8DC73940BCFB6EF64C545EB996183398BA2,
+	BannerPlaceholder_GetBannerRect_m67443DF1F88BAAAA9E13A51A9044070A2F26C7E2,
+	Purchasing_Initialize_m7287D5747E5444DEEE00BAD89044FAF3B1830368,
+	Purchasing_InitiatePurchasingCommand_mE2BD140F9B0999F82323B72C26E03863A7E90C0C,
+	Purchasing_GetPurchasingCatalog_m6F958CF001C4513AF22B86B1DEEE198BF55AD89C,
+	Purchasing_GetPromoVersion_mEFECB081EBAF2E4C6946C8E1BBF96F24177E0CB2,
+	Purchasing__cctor_m4D96404668FF4A1B91514C71C2972694023C0649,
+	PurchasingPlatform__ctor_m246019D33132E210E081FC0878B7E2BA0545434C,
+	PurchasingPlatform_get_Instance_mA2099BC01A58C7F1AEEBD66DEF1F45A84D39712F,
+	PurchasingPlatform_set_Instance_m01DAC211CD3292C029C1E7CDC3750CC7356590F3,
+	PurchasingPlatform_UnityAdsPurchasingDispatchReturnEvent_mB8531C9CA7C2F5569E203AFEDF07F33BEB814F5C,
+	PurchasingPlatform_UnityAdsSetDidInitiatePurchasingCommandCallback_mC47E7E05A255D3ACCDCA1400A954E3A3FA02A817,
+	PurchasingPlatform_UnityAdsSetGetProductCatalogCallback_m3B01B53A52EC1CE26578EC061AA90C632F7626CF,
+	PurchasingPlatform_UnityAdsSetGetVersionCallback_m1E0F625490460A10C73F48C32CFFDC491CC5A8DF,
+	PurchasingPlatform_UnityAdsSetInitializePurchasingCallback_mD043FDF5C3D1095A75DB365E077E30075AD2CB77,
+	PurchasingPlatform_UnityAdsDidInitiatePurchasingCommand_mA910F3DE727D91ADBEB097FAB3B268EF78E963B6,
+	PurchasingPlatform_UnityAdsPurchasingGetProductCatalog_m43893984B031353D806A8391B018A96EC3C6707D,
+	PurchasingPlatform_UnityAdsPurchasingGetPurchasingVersion_m9BF736A175ED3CD1E0615B4E6B3CFD425F45DB1E,
+	PurchasingPlatform_UnityAdsPurchasingInitialize_m38A4FD6CB888A8699B9F1E09EEF7FE0CBE72CF62,
+	PurchasingPlatform_Initialize_m261DEB27B76AE7F6CA2C71EDE7666E1368CD1951,
+	unityAdsPurchasingDidInitiatePurchasingCommand__ctor_m590CF45B5BE07EE23665FBB7E1B8C2C74D13A3E2,
+	unityAdsPurchasingDidInitiatePurchasingCommand_Invoke_m8179A1B95A43E59F75F19F134B7B00E067E634CF,
+	unityAdsPurchasingDidInitiatePurchasingCommand_BeginInvoke_mD635CCA1DA5CD6EF0BE7858C7C40585A00EAE0E2,
+	unityAdsPurchasingDidInitiatePurchasingCommand_EndInvoke_mBF4B5A63A3858DCC86D2A5C4163AEBF289C6EC11,
+	unityAdsPurchasingGetProductCatalog__ctor_m7DD17B5A548D57D975DA13EFF3370F219BCFCD4F,
+	unityAdsPurchasingGetProductCatalog_Invoke_m5B0DF2F58EBA98B06DC997C4731D9F166D36675E,
+	unityAdsPurchasingGetProductCatalog_BeginInvoke_mA11FA3016DF5524A17CF7B1A7BF53E172CC397EE,
+	unityAdsPurchasingGetProductCatalog_EndInvoke_m3E8C990CEEF3AEFB00C5DD9D5999B3AD92BB7048,
+	unityAdsPurchasingGetPurchasingVersion__ctor_m7FD3636336B0081D066D1326FCBA083EDE46D59D,
+	unityAdsPurchasingGetPurchasingVersion_Invoke_mACB792C34954817D9979AEA8B88069D78BB1C410,
+	unityAdsPurchasingGetPurchasingVersion_BeginInvoke_m4E96E1278CE599A130250F97298B124572AA5354,
+	unityAdsPurchasingGetPurchasingVersion_EndInvoke_mF44F708DB6334FB311740E358F230008898DC440,
+	unityAdsPurchasingInitialize__ctor_m464BF627B04D98F5FEA743E8C13F2159FBABD427,
+	unityAdsPurchasingInitialize_Invoke_m4689AD3EFB2140A44E2B47CB359AD6AB9B16C87D,
+	unityAdsPurchasingInitialize_BeginInvoke_m2F511701FE0C01816052D3A8026BF38A65DE6AA1,
+	unityAdsPurchasingInitialize_EndInvoke_mC34DD292E548943AA5FA0027EE2E9B9353AC151F,
+	ApplicationQuit__ctor_m5B1A28454D92AB71F2D8AA3F2FEECA755ECC3ED3,
+	ApplicationQuit_add_OnApplicationQuitEventHandler_m6B717384EA8AFF41DBA121B62B7A4443BFFAB49A,
+	ApplicationQuit_remove_OnApplicationQuitEventHandler_m187AD324A096F38CF3DD37C5D97B16BB41BC833D,
+	ApplicationQuit_OnApplicationQuit_m003906A17266C49FA87D63EA42BA02F60EE6C568,
+	CoroutineExecutor__ctor_mF17DB14C13A9AADE22358EF1AA59A86B33AE609A,
+	CoroutineExecutor_Update_mD4F70B307D00AEDC2ED1E76A906A30EA37907C41,
+	NULL,
+	UnityLifecycleManager__ctor_mA859476434221EEA92E637746E84D3FED8474913,
+	UnityLifecycleManager_Initialize_mCCCCF32D191A3FB5F45C0E502306C369760027AB,
+	UnityLifecycleManager_Post_m6FC3349F84F3854BBF3B4ADCB39C66EB16F4B837,
+	UnityLifecycleManager_Dispose_m396389E710831AE9EDF3E1720C3412F4F9F8391A,
+};
+static const int32_t s_InvokerIndices[57] = 
+{
+	14,
+	137,
+	23,
+	107,
+	26,
+	23,
+	23,
+	23,
+	62,
+	23,
+	1584,
+	1518,
+	121,
+	121,
+	4,
+	4,
+	3,
+	23,
+	4,
+	165,
+	1585,
+	165,
+	165,
+	165,
+	165,
+	165,
+	3,
+	3,
+	3,
+	23,
+	137,
+	26,
+	213,
+	26,
+	137,
+	23,
+	107,
+	26,
+	137,
+	23,
+	107,
+	26,
+	137,
+	23,
+	107,
+	26,
+	23,
+	26,
+	26,
+	23,
+	23,
+	23,
+	26,
+	23,
+	23,
+	26,
+	23,
+};
+static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[4] = 
+{
+	{ 0x0600001A, 1,  (void**)&PurchasingPlatform_UnityAdsDidInitiatePurchasingCommand_mA910F3DE727D91ADBEB097FAB3B268EF78E963B6_RuntimeMethod_var, 0 },
+	{ 0x0600001B, 2,  (void**)&PurchasingPlatform_UnityAdsPurchasingGetProductCatalog_m43893984B031353D806A8391B018A96EC3C6707D_RuntimeMethod_var, 0 },
+	{ 0x0600001C, 3,  (void**)&PurchasingPlatform_UnityAdsPurchasingGetPurchasingVersion_m9BF736A175ED3CD1E0615B4E6B3CFD425F45DB1E_RuntimeMethod_var, 0 },
+	{ 0x0600001D, 4,  (void**)&PurchasingPlatform_UnityAdsPurchasingInitialize_m38A4FD6CB888A8699B9F1E09EEF7FE0CBE72CF62_RuntimeMethod_var, 0 },
+};
+extern const Il2CppCodeGenModule g_UnityEngine_Advertisements_iOSCodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_Advertisements_iOSCodeGenModule = 
+{
+	"UnityEngine.Advertisements.iOS.dll",
+	57,
+	s_methodPointers,
+	s_InvokerIndices,
+	4,
+	s_reversePInvokeIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+};
